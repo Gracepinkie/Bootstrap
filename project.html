@@ -9,41 +9,62 @@
     <title>Projects</title>
 </head>
 <body style="background-image: url(./images/redfog.webp); background-repeat: no-repeat; background-size: cover;">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-              <img src="./images/logo.jpg" alt="" width="60" height="80" class="d-inline-block align-text-top">
-            </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active"  href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Skills</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Projects</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link " href="#" >Testimonials</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark shadow-5-strong">
+            <!-- Container wrapper -->
+                <div class="container-fluid">
+              <!-- Navbar brand -->
+                <a class="navbar-brand" href="#">
+                  <img src="./images/logo.jpg" alt="logo"  width="40" height="50" class="d-inline-block align-text-top">
+                </a>
+          
+              <!-- Toggle button -->
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-mdb-toggle="collapse"
+                data-mdb-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <i class="fas fa-bars"></i>
+              </button>
+          
+              <!-- Collapsible wrapper -->
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               
+                <ul class="navbar-nav navbar-expand-lg navbar-light">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="skills.html">Skills</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="project.html">Projects</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="testimonial.html">Testimonials</a>
+                  </li>
+                  </li>
+                </ul>
+               
+              </div>
+              <!-- Collapsible wrapper -->
+            </div>
+            <!-- Container wrapper -->
+          </nav>
+          <!-- Navbar -->
 
 
     <section id="projects">
         <div class="container">
-          <h1 class="fw bold text-decoration-underline text-info text-center" >Projects</h1>
+          <h1 class="fw bold text-decoration-underline text-light text-center" >Projects</h1>
           <div  class="projects-container mb-5">
             <img data-bs-toggle="modal" data-bs-target="#exampleModal" src="./images/maldives.png" width="600px" height="600px" />
-            <img data-bs-toggle="modal" data-bs-target="#exampleModal2" src="./images/projects (2).png" width="400px"  height="500px"/>
-            <img data-bs-toggle="modal" data-bs-target="#exampleModal3" src="./images/projects33.png" width="500px" height="600px" />
+            <img data-bs-toggle="modal" data-bs-target="#exampleModal2" src="./images/projects (2).png" width="600px"  height="600px"/>
+            <img data-bs-toggle="modal" data-bs-target="#exampleModal3" src="./images/projects33.png" width="600px" height="600px" />
             <img data-bs-toggle="modal" data-bs-target="#exampleModal4" src="./images/calculator.png" width="600px"  height="600px"/>
           </div>
         </div>

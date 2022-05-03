@@ -1,6 +1,10 @@
 p {
     color: aqua;
 }
+.container-fluid{
+    color:#ffff;
+    
+}
 /* PROJECTS */
 .projects-container{
     display:flex;
